@@ -2,13 +2,11 @@ import React from "react";
 
 
 export default function Box(props){
-    // console.log(props.on)
-    // Define a JavaScript object called "styles" to store the CSS styling for the box.
-
+    
 
     // Define a JavaScript object called "styles" to store the CSS styling for the box.
     const styles = {
-        // below changes the box to be black when on or stay white when off
+        // below changes the box to be black when array is set to on or stay white when off
         // The background color of the box is set based on the value of the "on" prop.
         // If "props.on" is true, the background color is set to black (#222222).
         // If "props.on" is false, the background color is set to "none," which is effectively transparent.
